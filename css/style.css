@@ -5,7 +5,7 @@
   margin: 0;
   /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Roboto', sans-serif;
-  color: #140502;
+  /* color: #140502; */
 }
 
 body {
@@ -13,17 +13,18 @@ body {
 flex-direction: column;
 min-width: 100vh;
 
-
 }
 
 .container-top {
   background-color: #030000;
+
 
   display: flex;
   flex-direction: column;
 }
 
 .header {
+
   display: flex;
   margin: 1em 16em 0 16em;
 
@@ -39,18 +40,14 @@ min-width: 100vh;
   display: flex;
   list-style: none;
   gap: 15px;
-  color: white;
-
-
+  color: #fff;
   padding-bottom: 2em;
+
 }
 
 .logo{
   display: flex;
-  width: 5%;
-  height: auto;
-  background-image: url("/assets/img/coffe-icon.png");
-  background-repeat: no-repeat;
+  width: 6%;
 }
 
 .header p{
@@ -58,6 +55,8 @@ min-width: 100vh;
 }
 
 .container-title {
+
+  display: flex;
   margin: 1em 16em 0 16em;
   padding-bottom: 50px;
 
@@ -89,7 +88,7 @@ font-size: 16px;
   align-self: flex-start;
   color: white;
   font-size: 16px;
-  border: none;
+  border: 1px solid #5d504a;
   border-radius: 7px;
 
   padding: 4px 12px 4px 12px;
@@ -110,7 +109,6 @@ img {
 .container-middle {
   display: flex;
   /* background-color: gray; */
-
   flex-flow: row wrap;
 
   justify-content: center;
@@ -135,8 +133,6 @@ img {
   border: 5px solid rgb(93 53 33);
 
   border-radius: 13px;
-
-
 }
 
 .icons-middle{
@@ -154,17 +150,77 @@ img {
 
 }
 
+.container-bottom-start{
+  display: flex;
+  background-color: #a66a51eb;
+  color: #140502;
+
+  gap: 15px;
+  flex-flow: column nowrap;
+
+  justify-items: center;
+  align-items: center;
+
+}
+
 .title-bottom{
+  padding-top: 90px;
+  max-width: 950px;
+  text-align: justify;
+
   display: flex;
+
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+
 }
 
-.container-bottom{
-  display: flex;
-
-  background-color: darkblue;
+.container-bottom-start p{
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 80px;
 
 }
+
+
+.container-bottom-end{
+  display: flex;
+  flex-flow: column wrap;
+
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-bottom-end-new{
+  margin: 80px;
+  padding: 50px 10px 50px 10px;
+  border-radius: 13px;
+  min-width: 950px;
+  color: #fff;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: space-between;
+  align-items: center;
+  background-color: #482d22;
+}
+
+.container-bottom-end-new button{
+  display: flex;
+
+}
+
 
 footer {
-  background-color: yellow;
+  padding: 25px;
+  background-color: #140502;
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+
 }
