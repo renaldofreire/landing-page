@@ -128,13 +128,10 @@ img {
 
 .icons-middle {
   margin: 0 25px 0 25px;
-
   gap: 15px;
-
   display: flex;
   flex-flow: column wrap;
   max-width: 180px;
-
   text-align: center;
   justify-content: space-between;
   align-items: center;
@@ -145,28 +142,31 @@ img {
   background-color: #a66a51eb;
   color: #140502;
 
-  gap: 15px;
   flex-flow: column nowrap;
-
-  justify-items: center;
   align-items: center;
 }
 
-.title-bottom {
+
+.title-bottom-p1 {
   padding-top: 90px;
   max-width: 950px;
   text-align: justify;
 
   display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: flex-end;
 
   font-size: 36px;
   font-weight: light;
   font-style: italic;
 }
 
-.container-bottom-start p {
+.title-bottom-p1 p {
+  font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 26px;
   padding-bottom: 80px;
 }
 
