@@ -10,28 +10,24 @@
 
 body {
   display: flex;
-flex-direction: column;
-min-width: 100vh;
-
+  flex-direction: column;
+  min-width: 100vh;
 }
 
 .container-top {
   background-color: #030000;
-
 
   display: flex;
   flex-direction: column;
 }
 
 .header {
-
   display: flex;
   margin: 1em 16em 0 16em;
 
   justify-content: space-between;
 
   align-items: center;
-
 }
 
 .header logo,
@@ -42,20 +38,18 @@ min-width: 100vh;
   gap: 15px;
   color: #fff;
   padding-bottom: 2em;
-
 }
 
-.logo{
+.logo {
   display: flex;
   width: 6%;
 }
 
-.header p{
+.header p {
   color: white;
 }
 
 .container-title {
-
   display: flex;
   margin: 1em 16em 0 16em;
   padding-bottom: 50px;
@@ -65,26 +59,24 @@ min-width: 100vh;
   justify-content: space-between;
 }
 
-.title{
+.title {
   display: flex;
   flex-flow: row wrap;
 
   max-width: 500px;
-
 }
 
-h1{
+h1 {
   font-size: 48px;
   color: white;
 }
 
-.title p{
-color: white;
-font-size: 16px;
-
+.title p {
+  color: white;
+  font-size: 16px;
 }
 
-.title button{
+.title button {
   align-self: flex-start;
   color: white;
   font-size: 16px;
@@ -94,7 +86,6 @@ font-size: 16px;
   padding: 4px 12px 4px 12px;
   margin-top: 5px;
   background-color: #140502;
-
 }
 
 img {
@@ -116,7 +107,7 @@ img {
   padding-bottom: 6em;
 }
 
-.title-middle{
+.title-middle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +126,7 @@ img {
   border-radius: 13px;
 }
 
-.icons-middle{
+.icons-middle {
   margin: 0 25px 0 25px;
 
   gap: 15px;
@@ -147,10 +138,9 @@ img {
   text-align: center;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.container-bottom-start{
+.container-bottom-start {
   display: flex;
   background-color: #a66a51eb;
   color: #140502;
@@ -160,10 +150,9 @@ img {
 
   justify-items: center;
   align-items: center;
-
 }
 
-.title-bottom{
+.title-bottom {
   padding-top: 90px;
   max-width: 950px;
   text-align: justify;
@@ -173,27 +162,23 @@ img {
   font-size: 36px;
   font-weight: light;
   font-style: italic;
-
 }
 
-.container-bottom-start p{
+.container-bottom-start p {
   font-weight: bold;
   font-size: 30px;
   padding-bottom: 80px;
-
 }
 
-
-.container-bottom-end{
+.container-bottom-end {
   display: flex;
   flex-flow: row nowrap;
 
   justify-content: center;
   align-items: center;
-
 }
 
-.container-bottom-end-new{
+.container-bottom-end-new {
   margin: 100px;
   padding: 40px 30px 40px 30px;
   border-radius: 6px;
@@ -206,17 +191,15 @@ img {
 
   justify-content: center;
   background-color: #482d22;
-
 }
 
-.cont-bottom-title{
+.cont-bottom-title {
   display: flex;
 
   flex-flow: column wrap;
-
 }
 
-.container-bottom-end-new button{
+.container-bottom-end-new button {
   display: flex;
 
   align-self: flex-start;
@@ -228,9 +211,7 @@ img {
   padding: 4px 12px 4px 12px;
   margin-top: 5px;
   background-color: #14050200;
-
 }
-
 
 footer {
   padding: 18px;
@@ -240,5 +221,4 @@ footer {
   font-size: 16px;
   justify-content: center;
   align-items: center;
-
 }
