@@ -3,9 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Roboto', sans-serif;
-  /* color: #140502; */
 }
 
 body {
@@ -16,7 +14,6 @@ body {
 
 .container-top {
   background-color: #030000;
-
   display: flex;
   flex-direction: column;
 }
@@ -24,9 +21,7 @@ body {
 .header {
   display: flex;
   margin: 1em 16em 0 16em;
-
   justify-content: space-between;
-
   align-items: center;
 }
 
@@ -53,16 +48,13 @@ body {
   display: flex;
   margin: 1em 16em 0 16em;
   padding-bottom: 50px;
-
   display: flex;
-
   justify-content: space-between;
 }
 
 .title {
   display: flex;
   flex-flow: row wrap;
-
   max-width: 500px;
 }
 
@@ -82,7 +74,6 @@ h1 {
   font-size: 16px;
   border: 2px solid #5d504a;
   border-radius: 7px;
-
   padding: 4px 12px 4px 12px;
   margin-top: 5px;
   background-color: #140502;
@@ -91,19 +82,14 @@ h1 {
 img {
   display: flex;
   flex-shrink: 0;
-
   max-width: 650px;
-
   margin-left: 30px;
 }
 
 .container-middle {
   display: flex;
-  /* background-color: gray; */
   flex-flow: row wrap;
-
   justify-content: center;
-
   padding-bottom: 6em;
 }
 
@@ -111,18 +97,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: #140502;
-
   font-size: 36px;
   padding: 1.2em;
 }
 
-.icon {
-  width: 120px;
-  height: 120px;
+.icon > img {
+  width: 150px;
+  height: 150px;
   border: 5px solid rgb(93 53 33);
-
+  margin: 0;
   border-radius: 13px;
 }
 
@@ -141,23 +125,18 @@ img {
   display: flex;
   background-color: #a66a51eb;
   color: #140502;
-
   flex-flow: column nowrap;
   align-items: center;
 }
-
 
 .title-bottom-p1 {
   padding-top: 90px;
   max-width: 950px;
   text-align: justify;
-
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
   align-items: flex-end;
-
   font-size: 36px;
   font-weight: light;
   font-style: italic;
@@ -173,7 +152,6 @@ img {
 .container-bottom-end {
   display: flex;
   flex-flow: row nowrap;
-
   justify-content: center;
   align-items: center;
 }
@@ -184,30 +162,24 @@ img {
   border-radius: 6px;
   min-width: 950px;
   color: #fff;
-
   gap: 250px;
-
   display: flex;
-
   justify-content: center;
   background-color: #482d22;
 }
 
 .cont-bottom-title {
   display: flex;
-
   flex-flow: column wrap;
 }
 
 .container-bottom-end-new button {
   display: flex;
-
   align-self: flex-start;
   color: white;
   font-size: 16px;
   border: 2px solid #fff;
   border-radius: 7px;
-
   padding: 4px 12px 4px 12px;
   margin-top: 5px;
   background-color: #14050200;
